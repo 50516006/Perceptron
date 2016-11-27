@@ -1,5 +1,5 @@
 package perceptron;
-
+//学習するごとに判定するようにして完了したらすぐに終わるようにした
 public class Perceptron_main {
 
 	public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Perceptron_main {
 
 	//学習データ
 		double input[][] = { {1,1}, {1,0}, {0,1}, {0,0}};
-		double output[] = {0, 1, 1, 0};
+		double output[] = {1, 0, 0, 0};
         int k,m=0;
 
 		int index;
